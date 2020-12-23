@@ -1,7 +1,7 @@
 #!/bin/bash
 
-x=2
+x=0
 while true;
 do
-x=$(($x*2))
+let x=$x+1
 done
